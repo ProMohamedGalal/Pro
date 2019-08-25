@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home2</title>
+    <link rel="stylesheet" href="fontawesome-free-5.4.2-web/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="ss.css" type="text/css">
+    <link rel="stylesheet" href="style1.css" type="text/css"> </head>
+
+<body>
+    <!-- start header-->
+    <div class="top-nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 text-left">
+                    <!-- start sidebar-->
+                    <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <a href="hm.html">Home</a> <a href="categorypage.html">category</a> <a href="#">My Account</a> <a href="#">About Us</a> <a href="#">About App</a> <a href="#">Contact Us</a> <a href="#">Help</a> </div> <span onclick="openNav()" class="openAside"><i class="fas fa-bars"></i></span>
+                    <div id="main"> <img src="images/logos.svg" alt="logo" title="akl bity"> </div>
+                </div>
+                <!-- end sidebar-->
+                <div class="col-md-4 col-sm-12 text-center">
+                    <!-- start form-->
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Search..." name="">
+                            <button type="button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <!-- end form-->
+                <!-- start dropbutton-->
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> All Categories </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">desserts</a> <a class="dropdown-item" href="#">Pasta and rice</a> <a class="dropdown-item" href="#">Mahshi</a> <a class="dropdown-item" href="#">Meals</a> <a class="dropdown-item" href="#">Salad</a> <a class="dropdown-item" href="#">Meats</a> <a class="dropdown-item" href="#">Chicken</a> <a class="dropdown-item" href="#">other</a> </div>
+                </div>
+                <!-- end drop button-->
+            </div>
+            <div class="col-md-4 col-sm-12 text-right">
+                <div class="menu-bar">
+                    <ul>
+                        <li><a href="#">عربي</a></li>
+                        <li>
+                            <a href="#">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> Log in </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel" style="color: darkorange">Log in</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" style="color: darkorange">&times;</span> </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="" method="get" enctype="multipart/form-data">
+                                                    <button id="s1"> <a href="www.google.com">Log in with google</a></button>
+                                                    <br>
+                                                    <button id="s2"> <a href="www.facebook.com">Log in with facebook</a></button>
+                                                    <br> <span class="break">or</span>
+                                                    <br>
+                                                    <input type="email" placeholder="Email">
+                                                    <br>
+                                                    <input type="password" placeholder="Password">
+                                                    <br>
+                                                    <div class="form-check">
+                                                        <input type="checkbox" class="form-check-input" id="check1">
+                                                        <label class="form-check-label" for="check1">keep me logged in</label>
+                                                    </div>
+                                                    <br>
+                                                    <input type="submit" value="log in" id="s4">
+                                                    <p>Dosen't have accounr? <a href="#" class="online" style="color:darkorange">Sign up</a></p>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="#"><i class="fas fa-shopping-cart fa-1x"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart fa-1x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---start top item--->
+    <div class="top-item">
+        <div class="row">
+            <div class="col-md-3"> </div>
+            <div class="col-md-6">
+                <div class="menu">
+                    <button class="control" id="all" type="button" data-filter="all">popular</button>
+                    <button class="control" id="design" type="button" data-filter=".category-a">newest</button>
+                    <button class="control" id="motion" type="button" data-filter=".category-b">best selling</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button data-filter="all" type="button" class="btn btn-secondary sp-button" title="grid" id="ChangeLayout"> <i class="fas fa-th sp-fas"></i> </button>
+                <button data-sort="random" type="button" class="btn btn-secondary sp-button" title="list"> <i class="fas fa-list sp-fas"></i> </button>
+            </div>
+        </div>
+    </div>
+    <!----start side-item---->
+    <div class="side-item">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-8 col-xs-6">
+                    <div class="items">
+                        <ul class="list-unstyled">
+                            <li>City <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>MealName <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>ChefName <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>Price <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>Extra <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>DeliveryType <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                            <li>DeliveryTime <i class="fas fa-arrow-right" style="font-size: 12px"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-10 col-xs-12">
+                    <div class="gallery container" data-ref="mixitup-container" id="Container">
+                        <div class="row">
+                            <div class="design col-md-3">
+                                <div class="category-a"  data-ref="mixitup-target">
+                                <div class="product-top item"><img src="images/food 500x500.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                </div>
+                                <div class="product-bottom text-center" data-order="1">
+                                    <h3>Rosted Chicken</h3>
+                                    <h5>70L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div>                                    </div>
+
+                            </div>
+                            <!---2 image-->
+                            <div class="design col-md-3">
+                                <div class="category-a"  data-ref="mixitup-target">
+                                    <div class="product-top item"><img src="images/5.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>pizza</h3>
+                                    <h5>40L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!----3 image-->
+                            <div class="design col-md-3">
+                                <div class="category-a"  data-ref="mixitup-target">
+                                    <div class="product-top item"><img src="images/6.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>fatta</h3>
+                                    <h5>150L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!------4imgae--->
+                            <div class="design col-md-3">
+                                <div class="category-a"  data-ref="mixitup-target">
+                                    <div class="product-top item"><img src="images/7.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>pasta</h3>
+                                    <h5>60L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!----5image--->
+                            <div class="best col-md-3">
+                                    <div class="category-b"  data-ref="mixitup-target">
+                                    <div class="best product-top item"><img src="images/3.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>fahita chicken</h3>
+                                    <h5>100L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!---6image--->
+                            <div class="best col-md-3">
+                                    <div class="category-b"  data-ref="mixitup-target">
+                                    <div class="best product-top item"><img src="images/8.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>periani</h3>
+                                    <h5>80L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!---7image------>
+                            <div class="best col-md-3">
+                                    <div class="category-b"  data-ref="mixitup-target">
+                                    <div class="product-top item"><img src="images/2.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>desserts</h3>
+                                    <h5>60L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                            <!---8image--------->
+                            <div class="best col-md-3">
+                                    <div class="category-b"  data-ref="mixitup-target">
+                                    <div class="product-top item"><img src="images/1.jpg" alt=""></div>
+                                    <div class="overlay-right">
+                                        <button type="button" class="btn btn-secondary" title="quick show"> <i class="fa fa-eye"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to favourite"> <i class="fa fa-heart"></i> </button>
+                                        <button type="button" class="btn btn-secondary" title="add to shppingcart"> <i class="fa fa-shopping-cart"></i> </button>
+                                    </div>
+                                
+                                <div class="product-bottom text-center">
+                                    <h3>delicious lazania</h3>
+                                    <h5>120L.E</h5> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---end side-item--->
+    <!----- start footer--->
+    <div class="footer">
+        <div class="conta]iner">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer"> <img src="images/اللوجو.svg" alt="logo">
+                        <h3>Our Message</h3> </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer">
+                        <h3>Support</h3>
+                        <ul class="link-area">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i>Policy info.</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i>Terms &amp; condition</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i>Report for order</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i>how to order</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer">
+                        <h3>Follow us on </h3>
+                        <ul class="social-footer list-inline">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer">
+                        <h3>Get our app</h3>
+                        <ul class="app-area list-inline">
+                            <li><a href="#"><i class="fab fa-google-play"></i>get it on play store</a></li>
+                            <li><a href="#"><i class="fab fa-apple"></i> get it on app store</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----- end footer---->
+    <!-- start last sec-->
+    <div class="copyright-area text-center">
+        <div class="container">
+            <div class="row">
+                <p>&copy; 2019 All Right Reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- end sec-->
+    <script src="jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mixitup.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <script src="jq.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home2</title>
+
+<link rel="stylesheet" href="fontawesome-free-5.4.2-web/css/all.min.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<link rel="stylesheet" href="ss.css" type="text/css">
+<link rel="stylesheet" href="style1.css" type="text/css">
+</head>
+
+<body>
+	<!-- start header-->
+	<div class="top-nav-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 text-left">
+			<!-- start sidebar-->
+					<div id="mySidenav" class="sidenav">
+					  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					  <a href="hm.html">Home</a>
+					  <a href="categorypage.html">category</a>
+					  <a href="#">My Account</a>
+					  <a href="#">About Us</a>
+					<a href="#">About App</a>
+					<a href="#">Contact Us</a>
+						<a href="#">Help</a>
+					</div>
+				<span onclick="openNav()" class="openAside"><i class="fas fa-bars"></i></span>
+					<div id="main">
+						<img src="images/اللوجو.svg" alt="logo" title="akl bity">
+					</div>
+					</div>
+				<!-- end sidebar-->
+				<div class="col-md-4 col-sm-12 text-center">
+					<!-- start form-->
+					<form>
+					<div class="form-group">
+						<input type="text" placeholder="Search..." name="">
+						<button type="button"><i class="fas fa-search"></i></button>
+					</div>
+					</form>
+				</div>
+					<!-- end form-->
+					<!-- start dropbutton-->
+					<div class="dropdown">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						All Categories
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">desserts</a>
+						<a class="dropdown-item" href="#">Pasta and rice</a>
+						<a class="dropdown-item" href="#">Mahshi</a>
+						<a class="dropdown-item" href="#">Meals</a>
+						<a class="dropdown-item" href="#">Salad</a>
+						<a class="dropdown-item" href="#">Meats</a>
+						<a class="dropdown-item" href="#">Chicken</a>
+						<a class="dropdown-item" href="#">other</a>
+						  
+					  </div>
+					</div>
+					<!-- end drop button-->
+				</div>
+				<div class="col-md-4 col-sm-12 text-right">
+					<div class="menu-bar">
+						<ul>
+							<li><a href="#">عربي</a></li>
+							<li><a href="#">
+								<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					  Log in
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel" style="color: darkorange">Log in</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true" style="color: darkorange">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<form action="" method="get" enctype="multipart/form-data">
+								<button id="s1"> <a href="www.google.com">Log in with google</a></button><br>
+								<button id="s2"> <a href="www.facebook.com">Log in with facebook</a></button><br>
+								<span class="break">or</span><br>
+								<input type="email" placeholder="Email"><br>
+								<input type="password" placeholder="Password"><br>
+								<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="check1">
+								<label class="form-check-label" for="check1">keep me logged in</label>
+								</div><br>
+								<input type="submit" value="log in" id="s4">
+								<p>Dosen't have accounr? <a href="#" class="online" style="color:darkorange">Sign up</a></p>
+							</form>
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+								</a>
+								
+							</li>
+							<li><a href="#"><i class="fas fa-shopping-cart fa-1x"></i></a></li>
+							<li><a href="#"><i class="fas fa-heart fa-1x"></i></a></li>
+						</ul>
+		</div>
+				</div>
+			</div>
+		</div>
+	
+	<!-- start slider-->		
+	 <div class="slide">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide custom-carousal" data-ride="carousel">
+					  <ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="overlay"></div>
+						  <img src="images/82919250-1280x500.jpg" alt="rice">
+						  <div class="carousel-caption d-md-block">
+							<h5 class="animated flipInY" style="animation-delay: 1s">Welcome To Akla Bety</h5>
+							<p class="animated bounceInUp" style="animation-delay: 2s">Lorem dim sit</p>
+						  </div>
+						</div>
+						<div class="carousel-item">
+							<div class="overlay"></div>
+						  <img src="images/tumblr_p2z87wzPAp1vv3z8ko1_1280-1280x500.jpg" alt="chicken">
+						  <div class="carousel-caption d-md-block">
+							<h5 class="animated fadeInLeft" style="animation-delay: 1s">Beautiful Chicken</h5>
+							<p class="animated fadeInRight" style="animation-delay: 2s">Lorem dim sit</p>
+						  </div>
+						</div>
+						<div class="carousel-item">
+							<div class="overlay"></div>
+						  <img src="images/82919250-1280x500.jpg" alt="Slalds">
+						  <div class="carousel-caption d-md-block">
+							<h5 class="animated zoomInDown" style="animation-delay: 1s">Delicious Food</h5>
+							<p class="animated zoomInUp" style="animation-delay: 2s">Lorem dim sit</p>
+						  </div>
+						</div>
+						  <div class="carousel-item">
+							  <div class="overlay"></div>
+							<img src="images/tumblr_p2z87wzPAp1vv3z8ko1_1280-1280x500.jpg" alt="pasta">
+							  <div class="carousel-caption d-md-block">
+								<h5 class="animated rotateInDownLeft" style="animation-delay: 1s">Amazing Pasta</h5>
+								<p class="animated rotateInDownRight" style="animation-delay: 2s">Lorem dim sit</p>
+							  </div>
+							</div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>	
+	</div>
+	<!-- end slider-->
+	
+	<!-- start form-->
+	<div class="selector">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form>
+				  <div class="form-group">
+					<select class="form-control" id="option1">
+					<option selected>Meal Type</option>
+					  <option>Lunch</option>
+					  <option>Breakfast</option>
+					  <option>Dinner</option>
+					</select>
+				  </div>
+				  <div class="form-group">
+					<select class="form-control" id="option2">
+						<option selected>Catgory</option>
+					  <option>Meat</option>
+					  <option>Chicken</option>
+					  <option>Desserts</option>
+					  <option>Salads</option>
+						<option>Pasta</option>
+					  <option>other</option>
+					</select>
+				  </div>
+					<div class="form-group">
+					<select class="form-control" id="option3">
+						<option selected>City</option>
+					  <option>Mansoura</option>
+					  <option>Cairo</option>
+					  <option>Tanta</option>
+					  <option>Zagazeg</option>
+					  <option>Damitte</option>
+					</select>
+				  </div>
+					<div class="form-group">
+					<select class="form-control" id="option4">
+						<option selected>Area</option>
+					  <option>Mashaya</option>
+					  <option>galaa street</option>
+					  <option>Tanta</option>
+					  <option>Zagazeg</option>
+					  <option>Damitte</option>
+					</select>
+				  </div>
+				  <div class="form-group">
+					<button type="button" class="dfd"><a>Search</a></button>
+				  </div>
+		</form>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- end form-->
+	<!--start on sale-->
+	<div class="title-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<h2 class="animated tada">Best Saleing</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end on sale->
+	<!--start best selling-->
+	<div class="bestsell">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>Rosted Chicken</h3>
+						<h5>40L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food2 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+					<div class="product-bottom text-center">
+						<h3>Honey noodle salad</h3>
+						<h5>40L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food3 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>sweet Patoto Cheese</h3>
+						<h5>40L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food4 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+				</div>
+				<div class="product-bottom text-center">
+					<h3>fudget brownie</h3>
+					<h5>30L.E</h5>
+					<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+				</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food5 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>Pasta</h3>
+						<h5>40L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food6 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>Meal</h3>
+						<h5>40L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food7 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>hawwshi</h3>
+						<h5>20L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+					<img src="images/food8 500x500.jpg" alt="">
+					<div class="overlay-right">
+						<button type="button" class="btn btn-secondary" title="quick show">
+							<i class="fa fa-eye"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to favourite">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button type="button" class="btn btn-secondary" title="add to shppingcart">
+							<i class="fa fa-shopping-cart"></i>
+						</button>
+					</div>
+					</div>
+					<div class="product-bottom text-center">
+						<h3>salad</h3>
+						<h5>20L.E</h5>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end best selling-->
+	<!----- start footer--->
+	<div class="footer">
+		<div class="conta]iner">
+			<div class="row">
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="single-footer">
+					<img src="images/اللوجو.svg" alt="logo">
+					<h3>Our Message</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="single-footer">
+						<h3>Support</h3>
+						<ul class="link-area">
+							<li><a href="#"><i class="fas fa-chevron-right"></i>Policy info.</a></li>
+							<li><a href="#"><i class="fas fa-chevron-right"></i>Terms &amp; condition</a></li>
+							<li><a href="#"><i class="fas fa-chevron-right"></i>Report for order</a></li>
+							<li><a href="#"><i class="fas fa-chevron-right"></i>how to order</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="single-footer">
+						<h3>Follow us on </h3>
+						<ul class="social-footer list-inline">
+							<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="single-footer">
+						<h3>Get our app</h3>
+						<ul class="app-area list-inline">
+							<li><a href="#"><i class="fab fa-google-play"></i>get it on play store</a></li>
+						<li><a href="#"><i class="fab fa-apple"></i> get it on app store</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!----- end footer---->
+	<!-- start last sec-->
+	<div class="copyright-area text-center">
+		<div class="container">
+			<div class="row">
+				<p>&copy; 2019 All Right Reserved</p>
+			</div>
+		</div>
+	</div>
+	<!-- end sec-->
+	<script src="jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/jquery-slim.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/mixitup.js"></script>
+<script src="js.js"></script>
+<script src="jq.js" type="text/javascript"></script>
+
+</body>
+	
+</html>
